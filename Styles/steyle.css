@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contener{
+    width: 100%;
+    max-width: 1334px;
+    margin: 0 auto;
+}
+.main-block {
+}
+.main-block-ART {
+}
+.main-block-Ihave {
+}
+.about-block {
+}
+.about-block-Project {
+}
+.about-block-look {
+}
+.evens-block {
+}
+.evens-block-wraper {
+}
+.slider-items {
+}
+.blog-block {
+}
+.blog-block-item {
+}
+.contact-block {
+}
+.contact-block-cart {
+}
+.text-block {
+}
+.footer-up {
+}
+.footer-up-left {
+}
+.footer-up-right {
+}
+.footer-under {
+}
