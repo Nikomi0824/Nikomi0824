@@ -5,43 +5,23 @@
 }
 
 .contener{
-    width: 100%;
-    max-width: 1334px;
+    width: 1334px;
+    max-width: 100%;
     margin: 0 auto;
+    padding: 0 40px;
 }
-.main-block {
+
+.text-button {
+    border: 1px solid #1F1E1E;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
 }
-.main-block-ART {
-}
-.main-block-Ihave {
-}
-.about-block {
-}
-.about-block-Project {
-}
-.about-block-look {
-}
-.evens-block {
-}
-.evens-block-wraper {
-}
-.slider-items {
-}
-.blog-block {
-}
-.blog-block-item {
-}
-.contact-block {
-}
-.contact-block-cart {
-}
-.text-block {
-}
-.footer-up {
-}
-.footer-up-left {
-}
-.footer-up-right {
-}
-.footer-under {
+a{
+    text-decoration: none;
+    color: #1F1E1E;
+    font-size: 18px;
+    font-weight: 600;
 }
