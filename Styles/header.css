@@ -6,6 +6,9 @@ header{
     background: #DEDEDE80;
     backdrop-filter: blur(10px);
 }
+nav{
+    display: flex;
+}
 .sthell{
     display: flex;
     justify-content: space-between;
@@ -21,11 +24,20 @@ nav a{
 .user{
     display: none;
 }
-
+.header_right_button{
+    width: 202px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media screen and (max-width :1380px){
     .sthell .logo{
         width: 152px;
         height: 111px;
+    }
+    .header_right_button {
+        width: 152px;
+       
     }
 }
 @media screen and (max-width :768px) {
@@ -93,6 +105,9 @@ nav a{
     .sthell .logo {
         width: 96px;
         height: 70px;
+    }
+    .header_right_button {
+        width: 96px;
     }
     header .sthell{
         padding: 0px;
