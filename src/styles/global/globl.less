@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    color:  #1F1E1E;
+}
+main{
+    
+    padding-top:clamp(70px, 50%, 147px);
+            
+}
+.contener{
+    width: 1334px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* button */
+.svg-button{
+    cursor: pointer;
+    border: none;
+    background: none;
+    width: 91px;
+    height: 47px;
+    
+}
+
+
+ 
+.text-button-white {
+    border: 1px solid #1F1E1E;
+    padding: 15px 40px;
+    font-size: clamp(14px 5vw,16px);
+    font-weight: 600;
+    cursor: pointer;
+    color: #1F1E1E;
+    text-align: center;
+    padding: 15px 40px;
+
+}
+.text-button-white:hover{
+    background: #1F1E1E;
+    color: #FFF;
+}
+.text-button-red{
+    color: var(--1, #FFF);
+    text-align: center;
+    font-size: clamp(14px 5vw, 16px);
+    font-weight: 600;
+    background:  #BC3324;
+    padding: 15px 40px;
+    border: none;
+}
+.text-button-red:hover{
+    background:  #A51505;
+}
+.text-button-black{
+    color:  #FFF;
+    text-align: center;
+    font-size: clamp(14px 5vw, 16px);
+    font-weight: 600;
+    background:  #1F1E1E;
+    padding: 15px 40px;
+    border: none;
+}
+.text-button-black:hover {
+    background: #A51505;
+    
+}
+
+/* text */
+a{
+    text-decoration: none;
+    color: #1F1E1E;
+    font-size: 18px;
+    font-weight: 600;
+    
+    
+}
+a:after {
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 1px;
+    background-color: #1F1E1E;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+a:hover:after {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+p{
+    color:  #1F1E1E;
+    font-family: 'Open Sans';
+    font-size: clamp(16, 5vw,18px);
+    font-weight: 400;
+        
+}
+h1{
+    font-family: 'Lora';
+    font-size:clamp(13px,5vw, 70px) ;   
+    font-weight: 500;
+    color: #1F1E1E;
+    text-transform: uppercase;
+    
+}
+h2{
+    
+    font-family: 'Lora';
+    font-size:clamp(24px, 5vw, 36px);
+    font-weight: 500; 
+    text-transform: uppercase;
+   
+}
+h3{
+    color: #1F1E1E;
+    font-family: 'Lora';
+    font-size:22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.44px;
+    text-transform: uppercase;
+}
+.subtitle_1{
+    color:  #1F1E1E;   
+    font-family: 'Open Sans';
+    font-size:clamp(26px, 5vw ,44px);   
+    font-weight: 700;  
+}
+.subtitle_2{
+    color:  #1F1E1E;
+    font-family: 'Open Sans';
+    font-size:clamp(18px, 5vw, 24px);   
+    font-weight: 700;
+        
+}
+.subtitle_3{
+    color: #1F1E1E;
+    font-family: 'Open Sans';
+    font-size: clamp(16px, 5vw, 20px);
+    font-weight: 700;
+}
+.subtitle_4{
+    color: #1F1E1E;
+    font-family: 'Open Sans';
+    font-size: clamp(14px, 5vw, 18px);
+    font-weight: 700;
+}
+.subtitle_5{
+    color: #1F1E1E;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text_wrapper{
+    margin: 0 auto;
+    width: clamp(204px, 46.8%, 624px);
+    background-color: black;
+    color: white;
+    text-align: center;
+}
