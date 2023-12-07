@@ -18,6 +18,10 @@ import svgmin from "gulp-svgmin";
 import svgstore from "gulp-svgstore";
 import server from "browser-sync";
 
+
+
+
+
 const resources = {
   html: "src/html/**/*.html",
   jsDev: "src/scripts/dev/**/*.js",
@@ -48,6 +52,8 @@ function includeHtml(){
         .pipe(formatHTML())
         .pipe(gulp.dest("dist"));
 }
+
+
 
 function style() {
   return gulp
@@ -158,6 +164,7 @@ function serve() {
   gulp.watch(resources.svgSprite, gulp.series(svgSprite, reloadServer));
 }
 const start = gulp.series(build, serve);
+
 
 
 export {

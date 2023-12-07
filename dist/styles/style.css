@@ -323,11 +323,13 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 360px;
 }
 .about-block-look .item_up {
   background-color: #BC3324;
   width: clamp(280px, 69%, 930px);
   position: relative;
+  height: 64%;
 }
 .about-block-look .item_img {
   position: absolute;
@@ -339,6 +341,7 @@ h3 {
 }
 .about-block-look .item_right {
   width: clamp(281px, 50%, 344px);
+  margin: 137px 0 88px;
 }
 .about-block-look .item_right .item_button_look {
   margin-top: 80px;
@@ -351,6 +354,14 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.evens-block {
+  -webkit-clip-path: polygon(0% 0.02%, 35.31% 2.92%, 100% 0%, 100% 100%, 69.44% 97.23%, 0% 100%);
+          clip-path: polygon(0% 0.02%, 35.31% 2.92%, 100% 0%, 100% 100%, 69.44% 97.23%, 0% 100%);
+  background-color: ghostwhite;
+  height: 1236px;
+  width: 100%;
+  z-index: -111;
 }
 @media screen and (max-width: 1380px) {
   .sthell .logo {

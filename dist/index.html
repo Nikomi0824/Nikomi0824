@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lenni Art</title>
   <link rel="stylesheet" href="styles/styles.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="scripts/itemsSwiper.js"></script>
 </head>
 
 <body>
@@ -99,17 +101,102 @@
       </section>
     </div>
     <div class="evens-block">
-      <section class="evens-block-wraper">
-        <section class="slider-items">
+      <h2>МЕРОПРИЯТИЯ</h2>
+      <div class="swiper">
 
-        </section>
-        <section class="slider-items">
+        <div class="swiper-wrapper">
 
-        </section>
-        <section class="slider-items">
 
-        </section>
-      </section>
+
+          <div class="swiper-slide">
+            <div>
+              <img src="assets/images/Nirvana.jpg" alt="">
+              <p>Собираемся и слушаем альбом Nirvana. Nirvana</p>
+              <p class="slider_center">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий студийный материал.</p>
+              <p>16.12.2021 | начало 18.00</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+              <img src="assets/images/Nirvana.jpg" alt="">
+              <p>Собираемся и слушаем альбом Nirvana. Nirvana</p>
+              <p class="slider_center">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий
+                студийный материал.</p>
+              <p>16.12.2021 | начало 18.00</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+              <img src="assets/images/Nirvana.jpg" alt="">
+              <p>Собираемся и слушаем альбом Nirvana. Nirvana</p>
+              <p class="slider_center">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий
+                студийный материал.</p>
+              <p>16.12.2021 | начало 18.00</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+              <img src="assets/images/Nirvana.jpg" alt="">
+              <p>Собираемся и слушаем альбом Nirvana. Nirvana</p>
+              <p class="slider_center">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий
+                студийный материал.</p>
+              <p>16.12.2021 | начало 18.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="management_swiper">
+          <div>
+            <button class="swiper-button-next">
+              <img src="/Image/link (2).svg" alt="">
+            </button>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div>
+            <button class="swiper-button-prev">
+              <img src="/Image/link (2).svg" alt="">
+            </button>
+          </div>
+        </div>
+
+      </div>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+    const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            slidesPerView: 3,
+            spaceBetween: 60,
+            slidesPerGroup: 1,
+            loopFillGroupWithBlank: true,
+
+            
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                600: {
+                    slidesPerView: 3,
+                    spaceBetween: 60
+                },
+                60: {
+                    slidesPerView: 1,
+                    spaceBetween: 60
+                }
+
+            },
+        });
+</script>
     </div>
     <div class="blog-block">
       <section class="blog-block-item">
@@ -144,6 +231,7 @@
 
     </section>
   </footer>
+
 </body>
 
 </html>

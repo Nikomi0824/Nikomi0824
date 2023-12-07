@@ -29,5 +29,11 @@
     "build": "gulp build",
     "serve": "gulp serve",
     "start": "gulp start"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^5.4.5",
+    "vue-awesome-swiper": "^4.1.1"
   }
 }
