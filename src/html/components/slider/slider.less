@@ -1,0 +1,98 @@
+.evens-block {
+    clip-path: polygon(0.00% 0.02%, 35.31% 2.92%, 100.00% 0.00%, 100.00% 100%, 69.44% 97.23%, 0.00% 100%);
+    background-color: @color_white;
+    height: 1236px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 90px auto;
+    z-index: -111;
+    padding: 120px 40px 0 40px;
+
+    h2 {
+        margin: 0 auto 150px;
+    }
+
+    .swiper {
+        width: 100%;
+        max-width: 1335px;
+        margin: 0 auto;
+
+        .management_swiper {
+            margin: 70px auto;
+            display: flex;
+            width: 35%;
+            justify-content: center;
+            align-items: center;
+
+            .swiper-button-next,
+            .swiper-pagination,
+            .swiper-button-prev {
+                position: static;
+                content: none;
+            }
+           
+            .swiper-button-next::after,
+            .swiper-pagination::after,
+            .swiper-button-prev::after {
+                content: none;
+            }
+        }
+
+        .swiper-slide {
+            width: 30%;
+            height: 612px;
+            text-align: start;
+
+            img {
+                width: 100%;
+                height: 434px;
+                object-fit: cover;
+                margin-bottom: 20px;
+            }
+
+            p {
+                width: 100%;
+            }
+
+            .slider_center {
+                margin: 8px 0;
+            }
+        }
+
+        .swiper-button-prev {
+            transform: rotate(180deg);
+        }
+
+        .swiper-pagination {
+            margin-bottom: 31px;
+
+            .swiper-pagination-bullet {
+                width: 15px;
+                height: 2px;
+                border-radius: 10px;
+                border: @color_white solid 1px;
+                background-color: @color_white_gray;
+            }
+
+            .swiper-pagination-bullet-active {
+                background-color: @color_black;
+
+            }
+
+        }
+       
+    }
+}
+.management_swiper .swiper-button-next svg {
+    width: 91px;
+    height: 60px;
+}
+.management_swiper .swiper-button-prev svg {
+    width: 91px;
+    height: 60px;
+}
+.look{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

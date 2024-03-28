@@ -7,231 +7,330 @@
   <title>Lenni Art</title>
   <link rel="stylesheet" href="styles/styles.min.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <script src="scripts/itemsSwiper.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-  <header>
-    <div class="sthell contener">
+  <div class="layout">
+    <header>
+      <div class="sthell contener">
+        <a href="index.html" class="sthell__link">
+          <svg class="logo">
+            <use xlink:href="assets/icons/symbols.svg#logo"></use>
+          </svg>
+        </a>
 
-      <svg class="logo">
-        <use xlink:href="assets/icons/symbols.svg#logo">
-      </svg>
+        <nav id="navbar">
+          <a href="event.html">Мероприятия</a>
+          <a href="">Блог</a>
+          <a href="">О Нас</a>
+          <a href="">Контакты</a>
+        </nav>
+        <div class="header_right_button" id="header_right_button">
+          <button class="text-button-white">Войти</button>
+        </div>
+        <div class="burger-menu-shell">
+          <button class="button_svg">
+            <svg class="user">
+              <use xlink:href="assets/icons/symbols.svg#user_header"></use>
+            </svg>
+          </button>
 
-      <nav>
-        <a href="">Мероприятия</a>
-        <a href="">Блог</a>
-        <a href="">О Нас</a>
-        <a href="">Контакты</a>
-      </nav>
-      <div class="header_right_button">
-        <button class="text-button-white">Войти</button>
-      </div>
-
-
-
-      <div class="burger-menu-shell">
-        <img class="user" src="@/Image/user_usercheck.svg" alt="">
-        <div class="burger-menu">
-          <span class="line line1"></span>
-          <span class="line line2"></span>
-          <span class="line line3"></span>
+          <div class="menu">
+            <span class="line one"></span>
+            <span class="line two"></span>
+            <span class="line three"></span>
+          </div>
         </div>
       </div>
+    </header>
 
-    </div>
-  </header>
-  <main>
-    <div class="main-block">
-      <h1 class="main-block-first-h1">АРТ-ПРОСТРАНСТВО</h1>
-      <img src="assets/images/LENNI.jpg" alt="">
-      <h1>ДЛЯ ЛЮДЕЙ, ГОРЯЩИХ СЕРДЦЕМ И ДЕЛОМ МЕСТО ДЛЯ НАСТОЯЩЕГО</h1>
-      <h3>Я хочу:</h3>
-      <section class="main-block-Ihave">
-        <button class="text-button-red ">Провести мероприятие</button>
-        <button class="text-button-black ">Стать арендатором</button>
-      </section>
-    </div>
-    <div class="about-block contener">
-      <section class="about-block-Project ">
-        <div class="text_wrapper">
-          <h2>О нас</h2>
-        </div>
 
-        <div class="start">
-          <p class="subtitle_1">Проект «Millennials»</p>
+    <main>
+      <div class="mainBlock ">
+        <h1 class="main-block-first-h1">АРТ-ПРОСТРАНСТВО</h1>
+        <img src="assets/images/LENNI.jpg" alt="">
+        <h1 class="main-block-first-h1-two">ДЛЯ ЛЮДЕЙ, ГОРЯЩИХ СЕРДЦЕМ И ДЕЛОМ МЕСТО ДЛЯ НАСТОЯЩЕГО</h1>
+        <h2>Я хочу:</h2>
+        <section class="main-block-Ihave">
+          <button class="text-button-red one">Провести мероприятие</button>
+          <button class="text-button-white two">Стать арендатором</button>
+        </section>
+      </div>
+      <div class="about_block contener">
+        <div class="about_up">
+          <h2 class="dark_title">О нас</h2>
+          <p class="subtitle_1 left">Проект «Millennials»</p>
+          <p class="right">Вдохновлен молодыми идейными людьми, увлеченными творчеством, эмоциями и желанием сделать мир лучше, проявить себя. У
+            них есть талант и стремление, у нас возможность помочь им воплотить их мечту в реальность.</p>
         </div>
-        <div class="end">
-          <p class="subtitle_4">
-            Вдохновлен молодыми идейными людьми, увлеченными творчеством, эмоциями и
-            желанием сделать мир лучше, проявить себя. У них есть талант и стремление,
-            у нас возможность помочь им воплотить их мечту в реальность.
-          </p>
+        <img class="about_img_one" src="assets/images/about_consert.jpg" alt="">
+        <img class="about_img_two" src="assets/images/about_galerey.jpg" alt="">
+        <div class="about_under">
+          <p class="subtitle_1 left">Мы предоставляем площади для вашего мероприятия</p>
+          <p class="right under_about_p">И оказываем помощь с организацией, если вам это нужно.
+            Наша цель: вовлечь в культурную жизнь города как можно больше людей, помочь молодым ребятам сделать первые шаги к своей
+            мечте и рассказать всем о том, что их волнует.</p>
         </div>
-        <img class="img_one" src="assets/images/pic.jpg" alt="" />
-        <img class="img_two" src="assets/images/pic (1).jpg" alt="" />
-        <div class="start">
-          <p class="subtitle_1">Мы предоставляем площади для вашего мероприятия</p>
-        </div>
-        <div class="end">
-          <p class="subtitle_4">
-            И оказываем помощь с организацией, если вам это нужно.
-            <br />Наша цель:
-            вовлечь в культурную жизнь города как можно больше людей, помочь молодым
-            ребятам сделать первые шаги к своей мечте и рассказать всем о том, что их
-            волнует.
-          </p>
-        </div>
-      </section>
-      <section class="about-block-look">
-        <div class="item_up">
-          <img class="item_img" src="assets/images/pic (2).jpg" alt="">
-        </div>
-        <div class="item_right">
-          <p class="subtitle_4">Мы уже успешно организовали и провели более 100 проектов. Посмотрите, как это было классно.</p>
-          <div class="item_button_look">
+      </div>
+      <div class="look_block contener">
+        <img src="assets/images/hole.jpg" alt="">
+        <div class="look_block_right">
+          <p class="look_title">Мы уже успешно организовали и провели более 100 проектов. Посмотрите, как это было классно.</p>
+          <div class="look_inside">
             <p class="subtitle_5">Смотреть</p>
-            <button class="img-button svg-button">
-              <svg class="">
-                <use xlink:href="assets/icons/symbols.svg#link (2)">
+            <button class="button_svg">
+              <svg>
+                <use xlink:href="assets/icons/symbols.svg#link"></use>
               </svg>
             </button>
           </div>
         </div>
-      </section>
-    </div>
-    <div class="evens-block">
-      <h2>МЕРОПРИЯТИЯ</h2>
-      <div class="swiper">
-
-        <div class="swiper-wrapper">
-
-
-
-          <div class="swiper-slide">
-            <div>
-              <img src="assets/images/Nirvana.jpg" alt="">
-              <p>Собираемся и слушаем альбом Nirvana. Nirvana</p>
-              <p class="slider_center">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий студийный материал.</p>
-              <p>16.12.2021 | начало 18.00</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div>
-              <img src="assets/images/Nirvana.jpg" alt="">
-              <p>Собираемся и слушаем альбом Nirvana. Nirvana</p>
-              <p class="slider_center">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий
-                студийный материал.</p>
-              <p>16.12.2021 | начало 18.00</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div>
-              <img src="assets/images/Nirvana.jpg" alt="">
-              <p>Собираемся и слушаем альбом Nirvana. Nirvana</p>
-              <p class="slider_center">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий
-                студийный материал.</p>
-              <p>16.12.2021 | начало 18.00</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div>
-              <img src="assets/images/Nirvana.jpg" alt="">
-              <p>Собираемся и слушаем альбом Nirvana. Nirvana</p>
-              <p class="slider_center">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий
-                студийный материал.</p>
-              <p>16.12.2021 | начало 18.00</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="management_swiper">
-          <div>
-            <button class="swiper-button-next">
-              <img src="/Image/link (2).svg" alt="">
-            </button>
-          </div>
-
-          <div class="swiper-pagination"></div>
-
-          <div>
-            <button class="swiper-button-prev">
-              <img src="/Image/link (2).svg" alt="">
-            </button>
-          </div>
-        </div>
-
       </div>
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-      <script>
-    const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-            slidesPerView: 3,
-            spaceBetween: 60,
-            slidesPerGroup: 1,
-            loopFillGroupWithBlank: true,
 
-            
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
+      <div class="evens-block">
+        <h2 class="dark_title">МЕРОПРИЯТИЯ</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div>
+                <img src="assets\images\swiper\Nirvana.jpg" alt="">
+                <a>Собираемся и слушаем альбом Nirvana. Nirvana</a>
+                <p class="slider_center subtitle_5">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый,
+                  содержащий студийный материал.</p>
+                <p>16.12.2021 | начало 18.00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="assets\images\swiper\Nirvana.jpg" alt="">
+                <a>Собираемся и слушаем альбом Nirvana. Nirvana</a>
+                <p class="slider_center subtitle_5">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый,
+                  содержащий
+                  студийный материал.</p>
+                <p>16.12.2021 | начало 18.00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="assets\images\swiper\Nirvana.jpg" alt="">
+                <a>Собираемся и слушаем альбом Nirvana. Nirvana</a>
+                <p class="slider_center subtitle_5">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый,
+                  содержащий
+                  студийный материал.</p>
+                <p>16.12.2021 | начало 18.00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="assets\images\swiper\Nirvana.jpg" alt="">
+                <a>Собираемся и слушаем альбом Nirvana. Nirvana</a>
+                <p class="slider_center subtitle_5">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый,
+                  содержащий
+                  студийный материал.</p>
+                <p>16.12.2021 | начало 18.00</p>
+              </div>
+            </div>
+          </div>
 
-            
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            breakpoints: {
-                600: {
-                    slidesPerView: 3,
-                    spaceBetween: 60
-                },
-                60: {
-                    slidesPerView: 1,
-                    spaceBetween: 60
-                }
+          <div class="management_swiper">
+            <div>
+              <button class="swiper-button-prev button_svg">
+                <svg>
+                  <use xlink:href="assets/icons/symbols.svg#link"></use>
+                </svg>
+              </button>
+            </div>
 
-            },
-        });
-</script>
-    </div>
-    <div class="blog-block">
-      <section class="blog-block-item">
+            <div class="swiper-pagination"></div>
 
-      </section>
-      <section class="blog-block-item">
+            <div>
+              <button class="swiper-button-next button_svg">
+                <svg>
+                  <use xlink:href="assets/icons/symbols.svg#link"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="look contener">
+          <p class="subtitle_5">Смотреть</p>
+        </div>
+      </div>
 
-      </section>
-      <section class="blog-block-item">
+      <script src="scripts/burgerMeny.min.js"></script>
+      <div class="contener blog-block">
+        <h2 class="dark_title"> Блог</h2>
+        <section>
+          <div class="items_block">
+            <div class="item_block">
+              <img src="assets/images/Blog/PHOTOSESSION.jpg" alt="">
+              <div class="slider_text">
+                <p class="slider_text_up">26.11.2022</p>
+                <a href="">Фотосессия в стенах Театра драмы</a>
+                <div class="slider_text_doun">
+                  <p>Организовывая фотосессию для локального бренда одежды мы смогли воплотить все пожелания заказчика
+                    и у нас получилась
+                    отличная работа. Смотрите как это было</p>
+                  <button class="button_svg">
+                    <svg>
+                      <use xlink:href="assets/icons/symbols.svg#link"></use>
+                    </svg>
+                  </button>
+                </div>
 
-      </section>
-    </div>
-    <div class="contact-block">
-      <section class="contact-block-cart">
+              </div>
+            </div>
+            <img class="img_line" src="assets/images/Blog/line.svg" alt="">
+          </div>
+          <div class="items_block">
+            <div class="item_block">
+              <img src="assets/images/Blog/PHOTOSESSION.jpg" alt="">
+              <div class="slider_text">
+                <p class="slider_text_up">26.11.2022</p>
+                <a href="">Фотосессия в стенах Театра драмы</a>
+                <div class="slider_text_doun">
+                  <p>Организовывая фотосессию для локального бренда одежды мы смогли воплотить все пожелания заказчика
+                    и у
+                    нас получилась
+                    отличная работа. Смотрите как это было</p>
+                  <button class="button_svg">
+                    <svg>
+                      <use xlink:href="assets/icons/symbols.svg#link"></use>
+                    </svg>
+                  </button>
+                </div>
 
-      </section>
-    </div>
-    <div class="text-block">
+              </div>
+            </div>
+            <img class="img_line" src="assets/images/Blog/line.svg" alt="">
+          </div>
+          <div class="items_block">
+            <div class="item_block">
+              <img src="assets/images/Blog/PHOTOSESSION.jpg" alt="">
+              <div class="slider_text">
+                <p class="slider_text_up">26.11.2022</p>
+                <a href="">Фотосессия в стенах Театра драмы</a>
+                <div class="slider_text_doun">
+                  <p>Организовывая фотосессию для локального бренда одежды мы смогли воплотить все пожелания заказчика
+                    и у
+                    нас получилась
+                    отличная работа. Смотрите как это было</p>
+                  <button class="button_svg">
+                    <svg>
+                      <use xlink:href="assets/icons/symbols.svg#link"></use>
+                    </svg>
+                  </button>
+                </div>
 
-    </div>
-  </main>
-  <footer>
-    <section class="footer-up">
-      <section class="footer-up-left">
+              </div>
+            </div>
+          </div>
+          <div class="block_loock">
+            <a href="#">Смотрить</a>
+          </div>
+        </section>
+      </div>
 
-      </section>
-      <section class="footer-up-right">
 
-      </section>
-    </section>
-    <section class="footer-under">
+      <div class="contact_shell contener">
+        <h2 class="dark_title"> КОНТАКТЫ</h2>
+        <div class="contact ">
+          <div class="contact_items">
+            <div class="contact_item">
+              <img src="assets/images/Contact/location.svg" alt="">
+              <div class="contact_text">
+                <p>Томск, Белая 8</p>
+                <p>2 этаж</p>
+                <p>оф. 207-208</p>
+              </div>
+            </div>
+            <div class="contact_item">
+              <img src="assets/images/Contact/home.svg" alt="">
+              <div class="contact_text">
+                <p>Отдел аренды</p>
+                <p>+7 499 350 0730</p>
+                <p>hi@tagree.ru</p>
+              </div>
+            </div>
+            <div class="contact_item">
+              <img src="assets/images/Contact/star (1).svg" alt="">
+              <div class="contact_text">
+                <p>Отдел мероприятий</p>
+                <p>+7 499 350 0730</p>
+                <p>hi@tagree.ru</p>
+              </div>
+            </div>
+          </div>
+          <img class="frame" src="assets/images/Contact/Frame 1994 1.jpg" alt="">
+        </div>
+      </div>
+      <div class="text_block ">
+        <p class="big-text">Просто делайте, что нравится,</p>
+        <p class="big-text">а мы вам поможем</p>
+      </div>
+    </main>
+    <footer class="contener">
+      <div class="borier">
+        <div class="borier1"></div>
+        <div class="borier2"></div>
+      </div>
+      <div class="footer">
+        <div class="center">
+          <div class="left">
+            <a class="link" to="">Календарь мероприятий</a>
+            <a class="link" to="">Провести мероприятие</a>
+            <a class="link" to="">Стать арендатором</a>
+            <a class="link" to="">Наши проекты</a>
+            <a class="" to="">Контакты</a>
+          </div>
+          <div class="right">
+            <p>Подпишись и будь в курсе происходящего</p>
+            <div class="form">
+              <div class="input_button">
+                <input type="text" placeholder="Email">
+                <button class="text-button-black">Подписаться</button>
+              </div>
+              <div class="checkbox">
+                <input class="mark" type="checkbox">
+                <label>Соглащение на обработку данных</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="under">
+          <div class="politik">
+            <div class="side">
+              <p>© Millennials 2022</p>
+              <a href="">Политика конфидициальности</a>
+            </div>
+            <p>Cookis</p>
+          </div>
 
-    </section>
-  </footer>
+          <div>
+            <button class="button_svg">
+              <svg class="user">
+                <use xlink:href="assets/icons/symbols.svg#Subtract (1)"></use>
+              </svg>
+            </button>
 
+            <button class="button_svg">
+              <svg class="user">
+                <use xlink:href="assets/icons/symbols.svg#Subtract"></use>
+              </svg>
+            </button>
+          </div>
+
+
+          <div class="tagree">
+            <p>Создание и продвижение</p>
+            <img class="img_tagree" src="assets/images/tagree.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="scripts/swiper.min.js"></script>
 </body>
 
 </html>

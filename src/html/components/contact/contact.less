@@ -1,0 +1,101 @@
+.contact_shell{
+    h2 {
+        margin: clamp(60px, 50%, 78px) auto clamp(80px, 50%, 150px);
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        
+        .contact_items{
+            display: flex;
+            justify-content: space-between;
+            flex-direction:column;
+            .contact_item{
+                display:flex;
+                .contact_text{
+                    margin-left: 54px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                }
+            }
+        }
+        .frame{
+            margin: 0 0 0 clamp(100px,50%,178px);
+        }
+    }
+    @media screen and (max-width:1000px){
+        .contact {
+            display: flex;
+            flex-direction: column;
+    
+            .contact_items {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+    
+                .contact_item {
+                    
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    img{
+                        width: 110px;
+                        margin: 0 auto;
+                    }
+                    .contact_text {
+                        text-align: center;
+                        margin: 0 0 100px 0;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+    
+                    }
+                }
+            }
+    
+            .frame {
+                width: 100%;
+                order:-1;
+                margin: 0 0 clamp(59px, 50%, 99px) 0;
+            }
+        }
+    }
+    @media screen and (max-width:487px) {
+        .contact {
+            display: flex;
+            flex-direction: column;
+    
+            .contact_items {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+    
+                .contact_item {
+                    margin-bottom: 40px;
+
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    img{
+                        width: 65px;
+                        margin: 0 0;
+                    }
+                    .contact_text {
+                        text-align: start;
+                        margin: 0 0 0 30px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+    
+                    }
+                }
+            }
+        }
+    }
+        
+}   
+
+
+

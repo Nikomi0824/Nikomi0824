@@ -27,6 +27,7 @@ const resources = {
   jsDev: "src/scripts/dev/**/*.js",
   jsVendor: "src/scripts/vendor/**/*.js",
   images: "src/assets/images/**/*.{png,jpg,jpeg,webp,gif,svg}",
+  
   less: "src/styles/**/*.less",
   svgSprite: "src/assets/svg-sprite/*.svg",
   static: [

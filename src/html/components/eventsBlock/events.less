@@ -1,0 +1,38 @@
+.eventBlock{
+    margin: clamp(191px,50%,247px) auto clamp(29px, 50%, 70px);
+    max-width: 1334px;
+    width: 100%;
+    padding: 40px;
+    h2{
+        margin: clamp(60px, 50%, 78px) auto clamp(80px, 50%, 150px);
+    }
+    &_look{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            margin:71px auto 18px;
+        }
+        button{
+            transform:rotate(90deg) ;
+        }
+    }
+    .event__items{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+        grid-template-rows: repeat(2, 638px);
+        gap:100px 40px;
+        &__item{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            picture{
+                width: 100%;
+            }
+            p,a{
+                width: 405px;
+            }
+        }
+    }
+    
+}

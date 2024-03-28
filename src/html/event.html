@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include("components/head/head.html")
+<body>
+    <div class="layout">
+        @@include("components/header/index.html")
+        <main>
+            <div class="eventBlock ">
+                <div class="bread_crumbs">
+
+                </div>
+                <h2 class="dark_title">МЕРОПРИЯТИЯ</h2>
+                <div class="event__items">
+                    @@loop('components/eventsBlock/items.html',[
+                        {
+                            "img": "assets/images/swiper/Nirvana.jpg",
+                            "title": "Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий студийный материал.",
+                            "link": "Собираемся и слушаем альбом Nirvana. Nirvana",
+                            "time": "07.12.2022 | начало 18.00",
+                            "datetime": "2022-12-07T18:00"
+                        },
+                        {
+                            "img": "assets/images/events/HowStuffWorks.jpg",
+                            "title": "Один из самых популярных подкастов в мире. В нём авторы объясняют, как устроены разные вещи.",
+                            "link": "Есть тема, нужно обсудить с HowStuffWorks",
+                            "time": "14.12.2022 | начало 18.30",
+                            "datetime": "2022-12-14T18:30"
+                        },
+                        {
+                            "img": "assets/images/events/картинки.jpg",
+                            "title": "Музыка группы имеет эклектичный характер, сочетая в себе элементы музыки соул, джаза, ритм-блюза и фанка.",
+                            "link": "Вечер | The Best of Sade",
+                            "time": "16.12.2022 | начало 20.00",
+                            "datetime": "2022-12-16T20:00"
+                        },
+                        {
+                            "img": "assets/images/events/выставка Малевича.jpg",
+                            "title": "Это будет самая полная выставка с 1988 года, того времени, когда впервые заговорили о Малевиче. Экспозиция займёт два этажа павильона.",
+                            "link": "Выставка Малевича в Томске",
+                            "time": "23.12.2022 | начало 20.00",
+                            "datetime": "2022-12-23T20:00"
+                        },
+                        {
+                            "img": "assets/images/events/картинки (1).jpg",
+                            "title": "Фотографы издания расскажут, как им удается создавать потрясающие кадры и что может испортить весь процесс.",
+                            "link": "Мастер — класс по студийной съемке от Tatler",
+                            "time": "25.12.2022 | начало 13.00",
+                            "datetime": "2022-12-25T13:00"
+                        },
+                        {
+                            "img": "assets/images/events/картинки (2).jpg",
+                            "title": "Российская джипси-фолк-рок группа, основанная в 2016 году в Санкт-Петербурге. В основной состав группы входят Юрий Музыченко",
+                            "link": "Повесилимся на славу на концерте The Hatters",
+                            "time": "27.12.2022 | начало 10.00",
+                            "datetime": "2022-12-27T10:00"
+                        }
+                    ])
+                </div>
+                <div class="eventBlock_look">
+                    <p>Показать еще</p>
+                    <button class="button_svg">
+                        <svg>
+                            <use xlink:href="assets/icons/symbols.svg#link"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </main>
+        @@include("components/footer/index.html")
+    </div>
+</body>
+</html>

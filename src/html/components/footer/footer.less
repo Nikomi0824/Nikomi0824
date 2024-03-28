@@ -1,0 +1,97 @@
+footer {
+    margin-bottom: 75px;
+    .borier {
+        display: flex;
+        justify-content: space-around;
+
+        .borier1 {
+            width: 42.8%;
+            height: 2px;
+            flex-shrink: 0;
+            background: var(--1-liner, linear-gradient(270deg, #1C1B1B 0%, rgba(255, 255, 255, 0.00) 82.86%));
+        }
+
+        .borier2 {
+            width: 42.8%;
+            height: 2px;
+            flex-shrink: 0;
+            background: linear-gradient(90deg, #1C1B1B 0%, rgba(255, 255, 255, 0.00) 100%);
+        }
+    }
+
+    .footer {
+        .center {
+            margin-top: 60px;
+            display: flex;
+            justify-content: space-between;
+
+            .left {
+                border-left: 4px solid #BC3324;
+                padding-left: 22px;
+                display: flex;
+                flex-direction: column;
+
+                .link {
+                    margin-bottom: 22px;
+                }
+            }
+
+            .right {
+                .form {
+                    .input_button {
+                        margin: 24px 0 15px;
+                        button{
+                                margin: -5px;
+                                padding: 17.8px 23px;
+                        }
+                    }
+
+                    .checkbox{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .mark{
+                            width: 24px;
+                            height: 24px;
+                            margin-right: 15px;
+                            border: solid 1px @color_black;
+                        }
+                        .mark:hover{
+                            background-color: @color_black;
+                        }
+                    }
+                }
+            }
+        }
+
+        .under {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+
+            .politik {
+                width: 384px;
+                max-width: 100%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+
+                .side {
+                    p {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            .tagree {
+                display: flex;
+                align-items: flex-end;
+
+                .img_tagree {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+
+}
