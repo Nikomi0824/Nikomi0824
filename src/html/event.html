@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 @@include("components/head/head.html")
 <body>
     <div class="layout">
@@ -64,9 +64,16 @@
                         </svg>
                     </button>
                 </div>
+                <h3  class="dark_title event_services">Дополнительные услуги</h3>
+                <p class="event_services_text container">Перед запуском проекта, мы подготавливаем подробную смету и согласуем ее с клиентом. Убедившись, что все пожеланию учтены и мы можем приступать к реализациии проекта, начинается сложная, но интересная работа, результатом которой будет проведение вашего мероприятия на высшем уровне.</p>
+
+                @@include("components/table/index.html")
+                @@include('components/offers/offers.html')
+                @@include('components/informations/information.html')
             </div>
         </main>
         @@include("components/footer/index.html")
     </div>
+    <script src="scripts/burgerMeny.min.js"></script>
 </body>
 </html>

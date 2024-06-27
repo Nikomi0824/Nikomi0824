@@ -1,0 +1,82 @@
+.offers {
+    margin: 50px auto 100px;
+
+    @media @bw1020 {
+        margin-bottom: 130px;
+    }
+
+    @media @bw600 {
+        margin-bottom: 100px;
+    }
+    
+    &__wrapper {
+        
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 45px;
+        padding-left: 25px;
+        text-align: center;
+        font-family: @fontLora;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.44px;
+        text-transform: uppercase;
+
+        @media @bw1020 {
+            font-size: 16px;
+        }
+
+        @media @bw600 {
+            padding: 0;
+            margin-bottom: 25px;
+        }
+
+        @media @bw500 {
+            font-size: 13px;
+            line-height: 17px;
+        }
+    }
+
+    &__btn-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+
+        @media @bw600 {
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 25px;
+        }
+    }
+
+    &__event-btn {
+        width: 275px;
+        height: 55px;
+
+        @media @bw600 {
+            width: 280px;
+            height: 50px;
+            font-size: 14px;
+        }
+    }
+
+    &__rent-btn {
+        width: 245px;
+       height: 55px;
+
+       @media @bw600 {
+            width: 280px;
+            height: 50px;
+            font-size: 14px;
+        }
+    }
+}

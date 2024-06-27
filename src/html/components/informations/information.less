@@ -1,0 +1,21 @@
+.information {
+    
+    
+
+    &__items {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        @media @bw960 {
+            justify-content: center;
+            row-gap: 50px;
+            column-gap: 100px;
+        }
+        
+        @media @bw700 {
+            row-gap: 40px;
+        }
+    }
+}

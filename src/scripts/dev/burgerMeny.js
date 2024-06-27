@@ -1,23 +1,23 @@
-const hamburger = document.querySelector(".menu");
+const menuButton = document.querySelector(".menu"); // Более понятное имя переменной
 const navMenu = document.getElementById("navbar");
-const buttonMenu = document.getElementById("header_right_button");
-const sthell = document.querySelector("header");
+const headerRightButton = document.getElementById("header_right_button"); // Более понятное имя переменной
+const header = document.querySelector("header"); // Более понятное имя переменной
 
-hamburger.addEventListener("click", mobileMenu);
+menuButton.addEventListener("click", toggleMobileMenu); // Более понятное имя функции
 
-function mobileMenu() {
-    sthell.classList.toggle("active");
-    hamburger.classList.toggle("active");
+function toggleMobileMenu() { // Более понятное имя функции
+    header.classList.toggle("active");
+    menuButton.classList.toggle("active");
     navMenu.classList.toggle("active");
-    buttonMenu.classList.toggle("active");
+    headerRightButton.classList.toggle("active");
 }
 
 const mediaQuery = window.matchMedia('(min-width: 720px)');
 mediaQuery.addListener(function(event) {
     if (event.matches) {
-        sthell.classList.remove("active");
-        hamburger.classList.remove("active");
+        header.classList.remove("active");
+        menuButton.classList.remove("active");
         navMenu.classList.remove("active");
-        buttonMenu.classList.remove("active");
+        headerRightButton.classList.remove("active");
     }
 });

@@ -29,6 +29,8 @@
             .swiper-button-prev {
                 position: static;
                 content: none;
+                width: 343px;
+                display: flex
             }
            
             .swiper-button-next::after,
@@ -65,7 +67,7 @@
 
         .swiper-pagination {
             margin-bottom: 31px;
-
+            width: 343px;
             .swiper-pagination-bullet {
                 width: 15px;
                 height: 2px;
@@ -83,16 +85,16 @@
        
     }
 }
-.management_swiper .swiper-button-next svg {
-    width: 91px;
-    height: 60px;
-}
-.management_swiper .swiper-button-prev svg {
-    width: 91px;
-    height: 60px;
-}
+
 .look{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+.swiper-button-prev,
+.swiper-button-next{
+    width: 91px;
+}
+.swiper-pagination{
+    width: 343px;
+}   
